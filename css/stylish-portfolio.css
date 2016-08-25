@@ -16,6 +16,69 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/* 
+Julia
+*/
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+   }
+   
+.text-middle-apple {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-family: 'Apple Chancery', cursive;
+	padding-right: 300px;
+    padding-left: 300px;
+}
+
+.text-middle-comfortaa-black {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-family: 'Comfortaa', cursive;
+	padding-right: 150px;
+    padding-left: 235px;
+}
+
+.text-middle-apple-wide {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+	padding-right: 150px;
+    padding-left: 150px;
+}
+
+.teal {
+    color:white;
+    background-color: #179c90;
+}
+
+.teal-letters-white-bg {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:#179c90;
+    background-color:white;
+}
+
+.black {
+    color:#179c90;
+    background-color: #000000;
+}
+
+/* Julia end */
+
 
 .text-vertical-center {
     display: table-cell;
