@@ -10,34 +10,39 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-color: #fff;
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
-/* 
+p {
+    font-size:14pt;
+}
+/*
 Julia
 */
-   
+
 .text-middle-comfortaa {
 	display: table-cell;
     text-align: center;
     vertical-align: middle;
-    color:black;
+    color:white;
     font-family: 'Comfortaa', cursive;
-	padding-right: 300px;
-    padding-left: 300px;
+	padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .text-middle-comfortaa-wide {
-	display: table-cell;
     text-align: center;
     vertical-align: middle;
-    color:black;
+    color:white;
     font-family: 'Comfortaa', cursive;
-	padding-right: 200px;
-    padding-left: 200px;
+	padding-right: 50px;
+    padding-left: 50px;
 }
 
 .teal {
@@ -81,6 +86,12 @@ Julia
 
 /* Custom Button Styles */
 
+.dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
 .btn-dark {
     border-radius: 0;
     color: #fff;
@@ -90,7 +101,7 @@ Julia
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
+    color: #e40e7f;
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -205,11 +216,12 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/brain_slice.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: url(../img/brain_slice_crop.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 /* About */
@@ -268,7 +280,7 @@ hr.small {
 .workspace {
     display: table;
     width: 100%;
-    height: 400px;
+    /*height: 400px;*/
     color: #000;
     font-family: 'Comfortaa', cursive;
     background: url(../img/workspace.jpg) no-repeat center center scroll;
@@ -325,10 +337,49 @@ footer {
 }
 
 a {
-    color: #e40e7f;
+    /*color: #e40e7f;*/
+    color: #fff;
+    text-decoration: underline;
 }
 
 a:focus, a:hover {
     color: #e40e7f;
     text-decoration: underline;
+}
+
+.map iframe{
+    pointer-events: none;
+}
+
+.inline{
+    display:inline;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.top10{
+    margin-top:10px
+}
+
+.bottom10{
+    margin-bottom:10px
+}
+
+.top20{
+    margin-top:20px
+}
+
+.bottom20{
+    margin-bottom:20px
+}
+
+#sponsors{
+    background-color: #000;
+}
+
+#enigma-logo{
+    width:33%
 }
