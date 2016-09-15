@@ -6,15 +6,14 @@
 
 /* Global Styles */
 
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Amarante);
 html,
 body {
     width: 100%;
     height: 100%;
     background-color: #fff;
-}
-
-body {
-    font-family: 'Arial', cursive;
+    font-family: 'Questrial', 'Helvetica Neue', Arial, sans-serif;
 }
 
 p {
@@ -377,7 +376,8 @@ a:focus, a:hover {
 }
 
 #sponsors{
-    background-color: #000;
+    background-color: #fff;
+    color:#000;
 }
 
 #enigma-logo{
